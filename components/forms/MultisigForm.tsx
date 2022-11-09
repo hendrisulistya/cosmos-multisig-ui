@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { withRouter, NextRouter } from "next/router";
 import { StargateClient } from "@cosmjs/stargate";
 import { assert } from "@cosmjs/utils";
-
 import { useAppContext } from "../../context/AppContext";
 import Button from "../inputs/Button";
 import { createMultisigFromCompressedSecp256k1Pubkeys } from "../../lib/multisigHelpers";
